@@ -20,7 +20,7 @@ here res is to be initialised later
 hence we need to declare its type
 `let m:number;`
 
-Object types in TS
+## Object types in TS
 
 ```
 let person : {
@@ -38,12 +38,14 @@ let article = {
 }
 article = {
     //new article
-}```
+}
+```
 
 Defining types of every object variable like this is not practical
 Hence we have Type Aliases
 
-```type Article = {
+```
+type Article = {
     author: string;
 	content: string;
     image?: string;
@@ -53,38 +55,40 @@ let newArticle:Article = {
     author: “test”,
     content:”test”,
     image:”test”
-}```
+}
+```
 
-The union types
+### The union types
 
-    `type Dog = {
-    	name: string;
-    	barks: boolean;
-    	wags: boolean;
-    }
+```
+type Dog = {
+name: string;
+barks: boolean;
+wags: boolean;
+}
 
-    type Cat = {
-    	name: string;
-    	purrs: boolean;
-    }
+type Cat = {
+name: string;
+purrs: boolean;
+}
 
-    type DogAndCat = Dog | Cat;
+type DogAndCat = Dog | Cat;
 
-    let dog : DogAndCat = {
-    	name: “dog”,
-    	barks: true,
-    	wags: true
-    }
+let dog : DogAndCat = {
+	name: “dog”,
+	barks: true,
+	wags: true
+}
 
-    let cat : DogAndCat = {
-    	name: “cat”,
-    	purrs: true
-    }
+let cat : DogAndCat = {
+	name: “cat”,
+	purrs: true
+}
 
-    let hybrid : DogAndCat = {
-    	name: “hybrid”,
-    	barks: false,
-    	purrs: true,
-    	wags: true
-    }`
-````
+let hybrid : DogAndCat = {
+	name: “hybrid”,
+	barks: false,
+	purrs: true,
+	wags: true
+}
+```
