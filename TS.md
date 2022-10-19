@@ -1,12 +1,13 @@
 ## Types in TS
 
-1. Primitive Types:
-2. Any
-3. Unknown
-4. Number
-5. String
-6. Bit Int
-7. Boolean
+### Primitive Types:
+
+1. Any
+2. Unknown
+3. Number
+4. String
+5. Bit Int
+6. Boolean
 
 Type inference: TS infers the types by its own
 No explicit type declaration
