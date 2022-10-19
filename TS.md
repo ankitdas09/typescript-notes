@@ -62,14 +62,14 @@ let newArticle:Article = {
 
 ```
 type Dog = {
-name: string;
-barks: boolean;
-wags: boolean;
+	name: string;
+	barks: boolean;
+	wags: boolean;
 }
 
 type Cat = {
-name: string;
-purrs: boolean;
+	name: string;
+	purrs: boolean;
 }
 
 type DogAndCat = Dog | Cat;
