@@ -93,3 +93,30 @@ let hybrid : DogAndCat = {
 	wags: true
 }
 ```
+
+### The intersection types
+
+All properties are required
+
+```
+type Dog = {
+	name: string;
+	barks: boolean;
+	wags: boolean;
+}
+
+type Cat = {
+	name: string;
+	purrs: boolean;
+}
+
+type HybridAnimal = Dog & Cat;
+
+// All properties required
+let hybrid : HybridAnimal = {
+	name: “hybrid”,
+	barks: false,
+	purrs: true,
+	wags: true
+}
+```
