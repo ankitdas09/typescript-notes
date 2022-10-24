@@ -74,7 +74,7 @@ type Person = {
   age: number;
   ageUnit: ageUnit;
   country: string;
-  greet: (greeting: string) => string;
+  greet: (greeting: string) => string; //Function call signature
 };
 
 let person: Person = {
