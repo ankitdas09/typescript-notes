@@ -23,7 +23,7 @@ const sameStr: sum = (c, v) => {
 
 ## Function overloading:
 
-### Function overloading is a feature of object-oriented programming where two or more functions can have the same name but different parameters. When a function name is overloaded with different jobs it is called Function Overloading.
+#### Function overloading is a feature of object-oriented programming where two or more functions can have the same name but different parameters. When a function name is overloaded with different jobs it is called Function Overloading.
 
 Function that can accept 3 as well as 4 parameters.
 
@@ -73,3 +73,7 @@ const makeTicket: Reserve = (
 };
 
 ```
+
+### Generics
+
+#### Polymorphic functions
