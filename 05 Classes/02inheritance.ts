@@ -33,3 +33,4 @@ class Editor extends User {
 const editor = new Editor("john", "john@editor.com", 23, 2);
 
 console.log(editor);
+export {};

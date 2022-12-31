@@ -32,3 +32,4 @@ class Pet {
 const dog = new Pet("shotgun");
 console.log(dog.greet());
 // now all properties are dynamic
+export {};

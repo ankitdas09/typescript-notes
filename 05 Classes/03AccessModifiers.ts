@@ -39,7 +39,6 @@ const John: Human = new Human("John", 20);
 // Property 'name' is private and only accessible within class 'Human'.ts(2341)
 
 // What if we need to access the name property?
-// -> We create 'getter' functions
 
 class Airplane {
 	private modelName: string;
@@ -56,3 +55,6 @@ class Airplane {
 }
 const A380: Airplane = new Airplane("A380", 2010);
 console.log(A380.getModelName());
+// OUTPUT : A380
+
+export {};
