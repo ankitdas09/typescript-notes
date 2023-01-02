@@ -18,3 +18,4 @@ console.log(Automobile.calculateMileage(230, 18));
 // -> Eg: Math object in JS
 const pi = Math.PI;
 console.log(pi);
+export {};

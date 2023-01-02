@@ -31,3 +31,5 @@ class Person {
 		return this._age;
 	}
 }
+
+export {};
